@@ -540,54 +540,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
-/* Outreach Section */
-.outreach {
-    padding: 80px 0;
-    background: #f8f9fa;
-}
-
-.outreach-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.outreach-item {
-    background: white;
-    padding: 2rem;
-    border-radius: 16px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease;
-}
-
-.outreach-item:hover {
-    transform: translateY(-5px);
-}
-
-.outreach-icon {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1.5rem;
-    font-size: 2rem;
-    color: white;
-}
-
-.outreach-text h3 {
-    color: #1a1a1a;
-    margin-bottom: 1rem;
-}
-
-.outreach-text p {
-    color: #666;
-    line-height: 1.6;
-}
-
 /* Contact Section */
 .contact {
     padding: 80px 0;
